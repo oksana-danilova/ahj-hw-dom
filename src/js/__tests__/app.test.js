@@ -1,6 +1,7 @@
-/*global itest*/
-
-itest("нулевой тест", () => {
-  // eslint-disable-next-line jest/no-standalone-expect
-  expect(0).toBe(0);
+/* eslint-disable jest/expect-expect */
+/* eslint-disable jest/valid-title */
+test("Test", () => {
+  const expected = 4 * 4;
+  const received = 16;
+  expected(received).toBe(expected);
 });
