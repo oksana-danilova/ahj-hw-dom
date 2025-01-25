@@ -1,0 +1,1 @@
+body{box-sizing:border-box;color:#212121;max-width:100%}h1{color:green;text-align:center}#game-field{display:grid;gap:5px;grid-template-columns:repeat(4,120px);grid-template-rows:repeat(4,120px);margin:20px auto;width:fit-content}.cell{background-color:#d9eed9;border:1px solid green}.goblin{height:50px;left:50%;position:absolute;top:50%;width:50px}
